@@ -1,6 +1,6 @@
 {
     "name": "sadukie",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "A personal card for Sadukie (@sadukie)",
     "type": "module",
     "main": "/bin/card.js",
