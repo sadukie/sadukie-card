@@ -1,0 +1,45 @@
+{
+    "name": "sadukie",
+    "version": "1.0.0",
+    "description": "A personal card for Sadukie (@sadukie)",
+    "type": "module",
+    "main": "/bin/card.js",
+    "bin": {
+        "sadukie": "./bin/card.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sadukie/sadukie-card.git"
+    },
+    "homepage": "https://sadukie.com",
+    "scripts": {
+        "prepublish": "npm run build",
+        "build": "node build.js",
+        "dev": "npm run build && node ./bin/card.js",
+        "lint": "standard"
+    },
+    "keywords": [
+        "card",
+        "npm",
+        "npm card",
+        "npx",
+        "npx card",
+        "business card"
+    ],
+    "author": "Sadukie <sarah@sadukie.com> (http://sadukie.com)",
+    "license": "MIT",
+    "files": [
+        "bin/card.js",
+        "bin/output"
+    ],
+    "devDependencies": {
+        "boxen": "^7.1.1",
+        "chalk": "^5.3.0"
+    },
+    "bugs": {
+        "url": "https://github.com/sadukie/sadukie-card/issues"
+    },
+    "dependencies": {
+        "sadukie": "^1.0.0"
+    }
+}
