@@ -1,18 +1,20 @@
 {
     "name": "sadukie",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A personal card for Sadukie (@sadukie)",
-    "main": "./bin/card.js",
+    "main": "./src/card.js",
+    "type":"module",
     "bin": {
-        "sadukie": "./bin/card.js"
+        "sadukie": "./src/card.js"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sadukie/sadukie-card.git"
     },
-    "homepage": "https://sadukie.github.io",
+    "homepage": "https://github.com/sadukie/sadukie-card.git#readme",
     "scripts": {
-        "lint": "standard"
+      "build": "node ./src/index.js",
+      "view": "npm run build && node ./src/card.js"
     },
     "keywords": [
         "sadukie",
@@ -23,6 +25,10 @@
         "npx",
         "npx card",
         "business card"
+    ],
+    "files": [
+      "bin/output",
+      "src/*/**"
     ],
     "author": "Sadukie <sarah@cletechconsulting.com> (http://cletechconsulting.com)",
     "license": "MIT",    
