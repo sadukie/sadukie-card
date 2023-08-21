@@ -2,8 +2,8 @@
 "use strict";
 
 // Pull in our modules
-const chalk = require("chalk");
-const boxen = require("boxen");
+import chalk from "chalk";
+import boxen from "boxen";
 
 // Define options for Boxen
 const options = {

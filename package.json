@@ -13,7 +13,7 @@
     },
     "homepage": "https://github.com/sadukie/sadukie-card.git#readme",
     "scripts": {
-      "build": "node ./src/index.js",
+      "build": "node ./src/card.js",
       "view": "npm run build && node ./src/card.js"
     },
     "keywords": [
