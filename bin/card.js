@@ -1,6 +1,9 @@
+#!/usr/bin/env node
+"use strict";
+
 // Pull in our modules
-import chalk from 'chalk';
-import boxen from 'boxen';
+const chalk = require("chalk");
+const boxen = require("boxen");
 
 // Define options for Boxen
 const options = {
@@ -9,7 +12,8 @@ const options = {
   borderStyle: 'round',
   title: 'Sarah Dutkiewicz',
   titleAlignment:'left',
-  borderColor: '#1e90ff'  
+  borderColor: '#1e90ff',
+  backgroundColor: '#fffacd'  
 }
 
 // Text + chalk definitions
